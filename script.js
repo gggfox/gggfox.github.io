@@ -89,6 +89,7 @@ function mv_page(){
         }
         if(event.target.matches('#nxt_pg')){
             console.log("next");
+            console.log(next_page);
             if(prev_page != ""){
                 fetch_videos(query,next_page);
             }
